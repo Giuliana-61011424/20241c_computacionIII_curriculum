@@ -7,15 +7,15 @@
     </head>
     <body>
         <header>
-            <img src="img/home_FILL1_wght400_GRAD0_opsz24.svg" width="40px" height="40px" alt="Inicio">
+            <img src="img/monograma.svg" width="40px" height="40px" alt="Inicio">
             <nav>
                 <ul>
-                    <li>Sobre mí</li> <!--bien, podés aplicar la etiqueta <a> acá y en el footer (clase 2) -->
-                    <li>Experiencia</li>
-                    <li>Portfolio</li>
-                    <li>Herramientas</li>
-                    <li>Formación</li>
-                    <li>Contacto</li>
+                    <li><a href="#sobre-mi" target="_self">Sobre mí</a></li>
+                    <li><a href="#experiencia" target="_self">Experiencia</a></li>
+                    <li><a href="#portfolio" target="_self">Portfolio</a></li>
+                    <li><a href="#herramientas" target="_self">Herramientas</a></li>
+                    <li><a href="#formacion" target="_self">Formación</a></li>
+                    <li><a href="#contacto" target="_self">Contacto</a></li>
                 </ul>
             </nav>
         </header>
@@ -23,18 +23,18 @@
             <section id="sobre-mi">
                 <nav id="language">
                     <ul>
-                        <li>Español</li>
-                        <li>English</li>
-                        <li>Português</li>
+                        <li><a href="" target="_blank">Español</a></li>
+                        <li><a href="" target="_blank">English</a></li>
+                        <li><a href="" target="_blank">Português</a></li>
                     </ul>
                 </nav>
-                <div><!--texto introductorio-->
+                <div><!--¿está bien que esto sea un div o tiene que ser un article?-->
                     <h1>Giuliana Belardo</h1>
                     <h2>Diseñadora Gráfica</h2>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
                     </p>
                 </div>
-                <img src="" width="56px" height="56px" alt="Ver más"> <!--buscar chevron hacia abajo-->
+                <img src="img/expand_more_FILL0_wght400_GRAD0_opsz24.svg" width="56px" height="56px" alt="Ver más">
             </section>
             <section id="experiencia">
                 <h3>Experiencia</h3>
@@ -63,7 +63,7 @@
                 </div>
             </section>
             <section id="portfolio">
-                <div id="hor-scr">
+                <div>
                     <div class="work-thumbnail">
                         <img src="" width="555px" height="385px" alt="">
                         <h4>Headline 4</h4>
@@ -91,13 +91,13 @@
                     </div>
                 </div>
             </section>
-            <section id="tools">
+            <section id="herramientas">
                 <img src="img/icons8-figma.svg" width="100px" height="100px" alt="Figma">
                 <img src="img/photoshop.png" width="100px" height="100px" alt="Photoshop">
                 <img src="img/indesign.png" width="100px" height="100px" alt="Indesign">
                 <img src="img/ilustrador.png" width="100px" height="100px" alt="Ilustrator">
-                <img src="" width="100px" height="100px" alt="Google Ads"> <!--falta imagen-->
-                <img src="" width="100px" height="100px" alt="Facebook Ads"> <!--falta imagen-->
+                <img src="img/icons8-google-ads-144.png" width="100px" height="100px" alt="Google Ads"> 
+                <img src="img/icons8-meta-144.png" width="100px" height="100px" alt="Facebook Ads Manager">
             </section>
             <section id="formacion">
                 <h3>Formación</h3>
@@ -117,22 +117,23 @@
                 </div>
             </section>
         </main>
-        <footer><!--info de contacto + redes sociales-->
+        <footer id="contacto"><!--info de contacto + redes sociales-->
             <div>
-                <img src="" width="56px" height="56px" alt="">
+                <img src="img/monograma.svg" width="56px" height="56px" alt="">
                 <h5>Giuliana Belardo</h5>
             </div>
             <div>
-                <img src="img/call_FILL1_wght400_GRAD0_opsz24.svg" width="56px" height="56px" alt="Teléfono">
-                <p>+54 9 11 5697-2132</p>
+                <a href="https://api.whatsapp.com/send/?phone=%2B5491156972132&text&type=phone_number&app_absent=0" target="_blank"><img src="img/call_FILL1_wght400_GRAD0_opsz24.svg" width="56px" height="56px" alt="Teléfono">
+                <p>+54 9 11 5697-2132</p></a>
             </div>
             <div>
-                <img src="img/mail_FILL1_wght400_GRAD0_opsz24.svg" width="56px" height="56px" alt="E-mail">
+                <a href="mailto:giulianabelardo@gmail.com" target="_blank"><img src="img/mail_FILL1_wght400_GRAD0_opsz24.svg" width="56px" height="56px" alt="E-mail">
+                <p>giulianabelardo@gmail.com</p></a>
             </div>
             <div>
-                <img src="img/icons8-linkedin.svg" width="56px" height="56px" alt="Linkedin">
-                <img src="img/icons8-behance.svg" width="56px" height="56px" alt="Behance">
-                <img src="img/icons8-instagram (2).svg" width="56px" height="56px" alt="Instagram">
+                <a href="https://ar.linkedin.com/" target="_blank"><img src="img/icons8-linkedin.svg" width="56px" height="56px" alt="Linkedin"></a>
+                <a href="https://www.behance.net" target="_blank"><img src="img/icons8-behance.svg" width="56px" height="56px" alt="Behance"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="img/icons8-instagram.svg" width="56px" height="56px" alt="Instagram"></a>
             </div>
         </footer>
     </body>
