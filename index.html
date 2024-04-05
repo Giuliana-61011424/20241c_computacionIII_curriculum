@@ -8,7 +8,7 @@
     <body>
         <header>
             <a href="" target="_self"><img src="img/monograma.svg" width="40px" height="40px" alt="Inicio"></a>
-            <nav>
+            <nav id="navigation">
                 <ul>
                     <li><a href="#sobre-mi" target="_self">Sobre mí</a></li>
                     <li><a href="#experiencia" target="_self">Experiencia</a></li>
@@ -20,14 +20,14 @@
             </nav>
         </header> <!-- Quiero que el navegador se siga viendo al scrollear ¿Cómo hago?-->
         <main>
+            <nav id="language">
+                <ul>
+                    <li><a href="" target="_blank">Español</a></li>
+                    <li><a href="" target="_blank">English</a></li>
+                    <li><a href="" target="_blank">Português</a></li>
+                </ul>
+            </nav>
             <section id="sobre-mi">
-                <nav id="language">
-                    <ul>
-                        <li><a href="" target="_blank">Español</a></li>
-                        <li><a href="" target="_blank">English</a></li>
-                        <li><a href="" target="_blank">Português</a></li>
-                    </ul>
-                </nav>
                 <div><!--¿está bien que esto sea un div o tiene que ser un article?-->
                     <h1>Giuliana Belardo</h1>
                     <h2>Diseñadora Gráfica</h2>
@@ -39,7 +39,7 @@
             <section id="experiencia">
                 <h3>Experiencia</h3>
                 <div>
-                    <div>
+                    <div class="previous-exp">
                         <h4>Pasantía internacional</h4>
                         <h5>Upload Escola | Abril 2022 - Julio 2022</h5>
                         <ul>
@@ -50,7 +50,7 @@
                             <li>Diseño de página web.</li>
                         </ul>
                     </div>
-                    <div>
+                    <div class="previous-exp">
                         <h4>Diseñadora freelance</h4>
                         <h5>Trabajo independiente | Septiembre 2021 - Enero 2022</h5>
                         <ul>
@@ -102,15 +102,15 @@
             <section id="formacion">
                 <h3>Formación</h3>
                 <div>
-                    <div>
+                    <div class="education">
                         <h5>Universidad Nacional de Lanús | 2018 - Actualidad</h5>
                         <h4>Licenciatura en Diseño y Comunicación Visual</h4>
                     </div>
-                    <div>
+                    <div class="education">
                         <h5>Coderhouse | 2021</h5>
                         <h4>Diseño UX/UI</h4>
                     </div>
-                    <div>
+                    <div class="education">
                         <h5>Coderhouse | 2021</h5>
                         <h4>Marketing Digital: Community Management & Publlicidad</h4>
                     </div>
@@ -122,15 +122,15 @@
                 <img src="img/monograma.svg" width="56px" height="56px" alt="">
                 <h6>Giuliana Belardo</h6>
             </div>
-            <div>
+            <div class="contact-info">
                 <a href="https://api.whatsapp.com/send/?phone=%2B5491156972132&text&type=phone_number&app_absent=0" target="_blank"><img src="img/call_FILL1_wght400_GRAD0_opsz24.svg" width="56px" height="56px" alt="Teléfono">
                 <p>+54 9 11 5697-2132</p></a>
             </div>
-            <div>
+            <div class="contact-info">
                 <a href="mailto:giulianabelardo@gmail.com" target="_blank"><img src="img/mail_FILL1_wght400_GRAD0_opsz24.svg" width="56px" height="56px" alt="E-mail">
                 <p>giulianabelardo@gmail.com</p></a>
             </div>
-            <div>
+            <div class="social-media">
                 <a href="https://ar.linkedin.com/" target="_blank"><img src="img/icons8-linkedin.svg" width="56px" height="56px" alt="Linkedin"></a>
                 <a href="https://www.behance.net" target="_blank"><img src="img/icons8-behance.svg" width="56px" height="56px" alt="Behance"></a>
                 <a href="https://www.instagram.com/" target="_blank"><img src="img/icons8-instagram.svg" width="56px" height="56px" alt="Instagram"></a>

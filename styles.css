@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
 // <width>: Use a value from 62 to 125
@@ -13,7 +18,187 @@
     font-variation-settings:
       "wdth" <width>;
   }
-  
+
+header {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+#navigation {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+#navigation ul {
+
+}
+
+#navigation li {
+
+}
+
+main {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+#sobre-mi {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+#language {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+#language ul {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+#language li {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+#sobre-mi {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+#sobre-mi div {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+#sobre-mi p {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+#experiencia {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+#experiencia div {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+.previous-exp {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+.previous-exp ul {
+    padding-left: ;
+}
+
+#portfolio {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+#portfolio div {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+.work-thumbnail {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+#herramientas {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+#formacion {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+#formacion div {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+.education {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+footer {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+footer div {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+.contact-info {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
+.social-media {
+    width: ;
+    height: ;
+    background-color: ;
+    padding: ;
+}
+
 h1 {
     font-family: "Archivo", sans-serif;
     font-weight: 100;
