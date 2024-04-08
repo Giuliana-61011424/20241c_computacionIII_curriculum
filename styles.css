@@ -90,6 +90,9 @@ main section {
     height: 90vh;
     //background-color: ;
     padding: 24px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 //#language { width: ;height: ;background-color: ;padding: ; }
