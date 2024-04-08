@@ -123,8 +123,8 @@ main section {
 }
 
 #sobre-mi p {
-    width: 40vw;
-    height: ;
+    width: 40%;
+    //height: ;
     background-color: ;
 }
 
@@ -139,9 +139,14 @@ main section {
 
 #experiencia {
     width: 100%;
-    //height: ;
+    height: 75vh;
     //background-color: ;
     //padding: ;
+    padding: 24px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vh;
 }
 
 #experiencia div {
