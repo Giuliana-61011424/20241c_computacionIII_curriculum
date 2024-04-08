@@ -30,7 +30,7 @@ header {
 }
 
 #navigation {
-    width: 640px;
+    width: 50%;
 }
 
 #navigation ul {
@@ -39,9 +39,7 @@ header {
     align-items: flex-start;
 }
 
-#navigation li {
-
-}
+// #navigation li {}
 
 main {
     width: 1280px;
@@ -58,17 +56,11 @@ main section {
 
 #sobre-mi {
     height: 774px;
-    background-color: ;
+    //background-color: ;
     padding: 24px 0px;
 }
 
-
-#language {
-    width: ;
-    height: ;
-    background-color: ;
-    padding: ;
-}
+//#language { width: ;height: ;background-color: ;padding: ; }
 
 #language ul {
     width: 200px;
@@ -77,127 +69,151 @@ main section {
     justify-content: space-between;
 }
 
-#language li {
-    width: ;
-    height: ;
-    background-color: ;
-    padding: ;
-}
+//#language li { width: ; height: ; background-color: ; padding: ;}
 
 #sobre-mi div {
-    width: ;
-    height: ;
-    background-color: ;
-    padding: ;
+    //height: ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    //background-color: ;
+    //padding: ;
 }
 
-#sobre-mi p {
+//#sobre-mi p {
     width: ;
     height: ;
     background-color: ;
-    padding: ;
-}
+    padding: ; }
 
 #experiencia {
-    width: ;
-    height: ;
-    background-color: ;
-    padding: ;
+    width: 100%;
+    //height: ;
+    //background-color: ;
+    //padding: ;
 }
 
 #experiencia div {
-    width: ;
-    height: ;
-    background-color: ;
-    padding: ;
+    width: 100%;
+    //height: ;
+    //background-color: ;
+    //padding: ;
+    display: flex;
+    
 }
 
 .previous-exp {
-    width: ;
-    height: ;
-    background-color: ;
-    padding: ;
+    //width: ;
+    //height: ;
+    //background-color: ;
+    //padding: ;
+    flex: 1;
 }
 
-.previous-exp ul {
-    padding-left: ;
-}
+//.previous-exp ul {
+    padding-left: ;}
 
 #portfolio {
-    width: ;
-    height: ;
-    background-color: ;
-    padding: ;
-}
-
-#portfolio div {
-    width: ;
-    height: ;
-    background-color: ;
-    padding: ;
+    width: 100%;
+    height: 5000px;
+//    background-color: ;
+//    padding: ;
+    display: flex;
+    flex-direction: row;
 }
 
 .work-thumbnail {
-    width: ;
-    height: ;
+    width: 385px;
+    height: 500px;
     background-color: ;
     padding: ;
+    margin: 1em;
 }
 
 #herramientas {
-    width: ;
-    height: ;
+    width: 100%;
+    height: 323px;
     background-color: ;
     padding: ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 #formacion {
-    width: ;
-    height: ;
+    width: 100%;
+    height: 700px;
     background-color: ;
     padding: ;
+    display: flex;
 }
 
 #formacion div {
-    width: ;
-    height: ;
-    background-color: ;
-    padding: ;
+    width: 100%;
+    height: 500px;
+    //background-color: ;
+    //padding: ;
+    display: flex;
 }
 
 .education {
-    width: ;
-    height: ;
-    background-color: ;
-    padding: ;
+    //width: ;
+    //height: ;
+    //background-color: ;
+    //padding: ;
+    flex-direction: column;
 }
 
 footer {
-    width: ;
-    height: ;
-    background-color: ;
-    padding: ;
+    width: 100%;
+    height: 600px;
+    //background-color: ;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 footer div {
-    width: ;
-    height: ;
-    background-color: ;
-    padding: ;
+    width: 100%;
+    height: 56px;
+    margin: 20px 0px;
+    //background-color: ;
+    //padding: ;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.contact-info {
+footer div h6 {
+    margin: 15px;
+}
+
+//.contact-info {
     width: ;
     height: ;
     background-color: ;
-    padding: ;
+    padding: ;}
+
+.contact-info a {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info p {
+    margin: 15px;
 }
 
 .social-media {
-    width: ;
-    height: ;
-    background-color: ;
-    padding: ;
+    width: 100%;
+    height: 200px;
+    //background-color: ;
+    //padding: ;
+    justify-content: center;
+}
+
+.social-media a {
+    margin: 10px;
 }
 
 h1 {
@@ -250,12 +266,10 @@ p {
     font-size: 18pt;
 }
 
-a p {
+//a p {
     font-weight: ;
     font-size: ;
-    color: ;
-
-}
+    color: ;}
 
 li {
     list-style-type: none;
