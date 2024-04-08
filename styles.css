@@ -92,7 +92,8 @@ main section {
     padding: 24px 0px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-end;
+    gap: 1vh;
 }
 
 //#language { width: ;height: ;background-color: ;padding: ; }
