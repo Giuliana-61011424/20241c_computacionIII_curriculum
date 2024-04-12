@@ -6,18 +6,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
-//Agregué bordes a algunas cajas para visualizar mejor la construcción del sitio. Para la versión final lo voy a sacar.
-body {border: 2px solid red;}
 
-header {border: 2px solid blue;}
-
-main {border: 2px solid green;}
-
-section {border: 2px solid purple;}
-
-div {border: 2px dashed grey;}
-
-footer {border: 2px solid orange;}
+//Agregué bordes a algunas cajas para visualizar mejor la construcción del sitio. Por ahora lo dejo en un comentario para poder activarlo y desactivarlo facilmente pero para la versión final lo voy a sacar :)
+//body {border: 2px solid red;} header {border: 2px solid blue;} main {border: 2px solid green;} section {border: 2px solid purple;} div {border: 2px dashed grey;} footer {border: 2px solid orange;}
 
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
