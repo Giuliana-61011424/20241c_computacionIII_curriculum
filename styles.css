@@ -25,22 +25,27 @@ html {
     --grey-600: #57565b;
 }
 
-//TEXT STYLES--------------------------------------------
+/*TEXT STYLES--------------------------------------------*/
 h1 {
-    font-family: "Climate Crisis"; //¿Porqué no se aplica la tipografía?
-    font-size: 10em;
+    font-family: "Climate Crisis";
+    font-size: 6.5em;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    line-height: 1em;
 }
 
 h2 {
     font-family: "Archivo", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 h3 {
-    font-family: "Climate Crisis"; //¿Porqué no se aplica la tipografía?
+    font-family: "Climate Crisis";
     font-size: 5em;
+    font-weight: 400;
+    letter-spacing: 0.001em;
 }
 
 h4 {
@@ -103,66 +108,55 @@ a {
     color: black;
 }
 
-//BODY--------------------------------------------
-body {
-    min-height: 100vh;
-    width: 100%;
-    margin: 0 auto;
-    //overflow-x: hidden;
-}
-//HEADER--------------------------------------------
+/*BODY--------------------------------------------*/
+/*body {
+    overflow-x: hidden;
+}*/
+
+/*HEADER--------------------------------------------*/
 header {
-    width: 100vw;
+    width: 100%;
     height: 10vh;
+    background-color: var(--blue-500);
 }
 
 header nav {
-    height: 10vh;
-    width: 100%;
-    background-color: var(--blue-500);
-    padding: 2.5vh 104px;
+    padding: 2% 7%;
 }
 
 header ul {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center; //¿Porqué no se centra?
 }
 
 header ul li a {
     color: var(--blue-50);
 }
 
-//MAIN--------------------------------------------
+/*MAIN--------------------------------------------*/
 main {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
 }
 
+/*COVER--------------------------------------------*/
 #cover {
     width: 100%;
     height: 90vh;
-    padding: 24px 104px;
+    padding: 2% 7%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    gap: 2vh;
+    gap: 24px;
     background-color: var(--blue-500);
     color: var(--blue-50);
 }
 
-#cover nav {
-    padding: 20px 0px;
-}
-
 #cover ul {
-    width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 1vw;
+    gap: 10px;
 
 }
 
@@ -174,15 +168,14 @@ main {
     text-transform: capitalize;
 }
 
-#cover div {
-    margin: 15vh 0 0 0;
+#cover article {
+    padding: 8px 0px;
 }
 
-
+/*SOBRE MI--------------------------------------------*/
 #sobre-mi {
     width: 100%;
-    height: 700px;
-    padding: 24px 104px;
+    padding: 15% 7%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -193,13 +186,12 @@ main {
 }
 
 #sobre-mi div {
-    width: 600px;
-    heigh: 300px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 40px;
+    gap: 32px;
 }
 
 #sobre-mi article {
@@ -235,10 +227,10 @@ main {
     background-color: var(--blue-50);
 }
 
+/*PROYECTOS--------------------------------------------*/
 #proyectos {
     width: 100%;
-    height: 1000px;
-    padding: 24px 104px;
+    padding: 7% 7%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -255,17 +247,17 @@ main {
 
 
 #project-list {
-    width: 30px;
+    width: 20%;
     display: flex;
     flex-direction: column;
     padding: 24px;
-    gap: 16px;
+    gap: 24px;
 }
 
+/*FORMACION--------------------------------------------*/
 #formacion {
     width: 100%;
-    height: 1000px;
-    padding: 24px 104px;
+    padding: 15% 7%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -279,7 +271,8 @@ main {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 10%;
 }
 
 .formacion-col-layout {
@@ -297,11 +290,13 @@ main {
     font-weight: 400;
 }
 
+
+/*FOOTER--------------------------------------------*/
 footer {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: var(--blue-500);
-    padding: 16px 104px;
+    padding: 16px 7%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
