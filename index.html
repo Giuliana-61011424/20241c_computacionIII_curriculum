@@ -1,152 +1,141 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8" />
         <title>Giuliana Belardo</title>
         <link href="styles.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Climate+Crisis&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <a href="" target="_self"><img src="img/monograma.svg" width="30px" height="30px" alt="Inicio"></a>
-            <nav id="navigation">
+            <nav>
                 <ul>
-                    <li><a href="#sobre-mi" target="_self">Sobre mí</a></li>
-                    <li><a href="#experiencia" target="_self">Experiencia</a></li>
-                    <li><a href="#portfolio" target="_self">Portfolio</a></li>
-                    <li><a href="#herramientas" target="_self">Herramientas</a></li>
-                    <li><a href="#formacion" target="_self">Formación</a></li>
-                    <li><a href="#contacto" target="_self">Contacto</a></li>
+                    <li><a href="" target="_self">Giuliana Belardo</a></li>
+
+                    <li><a href="" target="_self">Sobre mí</a></li>
+
+                    <li><a href="" target="_self">Proyectos</a></li>
+
+                    <li><a href="" target="_self">Formación</a></li>
+
+                    <li><a href="" target="_self">Contacto</a></li>
                 </ul>
             </nav>
-        </header> <!-- Quiero que el navegador se siga viendo al scrollear ¿Cómo hago?
-        RTA: desde css con position fixed-->
+        </header>
+
         <main>
-            <section id="sobre-mi">
-                <nav id="language">
+            <section id="cover">
+                <nav>
                     <ul>
-                        <li><a href="" target="_blank">Español</a></li>
-                        <li><a href="" target="_blank">English</a></li>
-                        <li><a href="" target="_blank">Português</a></li>
+                        <a href="" target="_blank"></a><li>Español</li></a>
+                        <a href="" target="_blank"></a><li>English</li></a>
+                        <a href="" target="_blank"></a><li>Português</li></a>
                     </ul>
                 </nav>
                 <article>
-                    <div>
-                        <h1>Giuliana Belardo</h1>
-                        <h2>Diseñadora Gráfica</h2>
-                    </div>
-                    <p>Soy estudiante avanzada de la carrera de Diseño Gráfico. Me apasiona el Diseño y busco aprender algo nuevo todos los días, ya sea haciendo cursos o de manera autodidacta. Busco un entorno laboral positivo donde tenga la oportunidad de aprender y crecer como profesional.
-                    </p>
+                    <h1>Giuliana Belardo</h1>
+                    <h2>Diseño Gráfico</h2>
                 </article>
                 <div>
-                    <img src="img/expand_more_FILL0_wght400_GRAD0_opsz24.svg" width="56px" height="56px" alt="Ver más">
+                    <img src="img/expand_more.svg" width="100vw" height="100vh" alt="Ver más"> <!--¿se le puede cambiar el color a un svg con css?-->
                 </div>
             </section>
-            <section id="experiencia">
-                <h3>Experiencia</h3>
+
+            <section id="sobre-mi">
+                <img src="img/3d_avatar_30.svg" widht="300px" height="300px" alt="Avatar 3D">
                 <div>
-                    <article class="previous-exp">
-                        <h4>Pasantía internacional</h4>
-                        <h5>Upload Escola | Abril 2022 - Julio 2022</h5>
-                        <ul>
-                            <li>Desarrollo de estrategia de Marketing digital.</li>
-                            <li>Creación de contenido para redes.</li>
-                            <li>Trabajo en equipo.</li>
-                            <li>Organización de proyectos.</li>
-                            <li>Diseño de página web.</li>
-                        </ul>
-                    </article>
-                    <article class="previous-exp">
-                        <h4>Diseñadora freelance</h4>
-                        <h5>Trabajo independiente | Septiembre 2021 - Enero 2022</h5>
-                        <ul>
-                            <li>Asesoramiento en diseño de marca.</li>
-                            <li>Creación de contenido para redes.</li>
-                            <li>Edición de video y audio para podcast.</li>
-                            <li>Diseño de identidad de marca.</li>
-                        </ul>
-                    </article>
-                    <article class="previous-exp">
-                        <h4>Diseñadora freelance</h4>
-                        <h5>Trabajo independiente | Septiembre 2021 - Enero 2022</h5>
-                        <ul>
-                            <li>Asesoramiento en diseño de marca.</li>
-                            <li>Creación de contenido para redes.</li>
-                            <li>Edición de video y audio para podcast.</li>
-                            <li>Diseño de identidad de marca.</li>
-                        </ul>
+                    <article>
+                        <h2>¡Hola!</h2>
+                        <p class="body-large">Soy Giuliana, diseñadora gráfica y comunicadora visual. Trabajo con emprendedores y dueños de PyMES transformando sus ideas en diseños que fidelicen a sus clientes y los destaquen de la competencia. Te puedo ayudar con Branding, Diseño Web, UX/UI, Redes Sociales, Diseño Editorial y Packaging.</p>
+                        <button class="button-fill-blue">Enviame un mensaje</button>
                     </article>
                 </div>
             </section>
-            <section id="portfolio">
-                <div class="work-thumbnail">
-                     <img src="img/thumbnail_herbologia-de-la-tetera_385px.png" width="385px" height="385px" alt="Branding y edición de colección de libros de herbología y botánica">
-                    <h4>Herbología de la tetera</h4>
-                    <h5>Branding y edición de colección de libros de herbología y botánica</h5>
+
+            <section id="proyectos">
+                <h3>proyectos</h3>
+                <div>
+                     <img src="img/thumbnail_herbologia-de-la-tetera_385px.png" width="700px" height="700px" alt=""> 
+                    <div id="project-list">
+                        <h6>HR Business Team</h6>
+                        <h6>Proglobal</h6>
+                        <h6>Upload Escola</h6>
+                        <h6>Tienda Animal</h6>
+                        <h6>Abremate</h6>
+                        <h6>Save.</h6>
+                        <h6>GAIA</h6>
+                        <h6>Omnibus Type Expo</h6>
+                        <h6>Herbología de la Tetera</h6>
+                    </div>
                 </div>
-                <div class="work-thumbnail">
-                    <img src="img/thumbnail_omnibus-type-2_385px.png" width="385px" height="385px" alt="Desarrollo de cartelería y merchandising para exposición tipográfica">
-                    <h4>Expo Omnibus Type</h4>
-                    <h5>Desarrollo de cartelería y merchandising para exposición tipográfica</h5>
-                </div>
-                <div class="work-thumbnail">
-                    <img src="img/thumnnail_rialto_385px.png" width="385px" height="385px" alt="Branding restaurante Rialto">
-                    <h4>Rialto</h4>
-                    <h5>Branding para restaurante italiano</h5>
-                </div>
-                <div class="work-thumbnail">
-                    <img src="img/thumbnail_gaia-1_385px.png" width="385px" height="385px" alt="Cartelería para mercado temático">
-                    <h4>Gaia</h4>
-                    <h5>Branding y catelería para mercado sustentable</h5>
-                </div>
-                <div class="work-thumbnail">
-                    <img src="img/thumbnail_gaia-2_385px.png" width="385px" height="385px" alt="Diseño de merchandising">
-                    <h4>Gaia</h4>
-                    <h5>Diseño de merchandising promocional</h5>
-                </div>
+                
             </section>
-            <section id="herramientas">
-                <img src="img/icons8-figma.svg" width="100px" height="100px" alt="Figma">
-                <img src="img/photoshop.png" width="100px" height="100px" alt="Photoshop">
-                <img src="img/indesign.png" width="100px" height="100px" alt="Indesign">
-                <img src="img/ilustrador.png" width="100px" height="100px" alt="Ilustrator">
-                <img src="img/icons8-google-ads-144.png" width="100px" height="100px" alt="Google Ads"> 
-                <img src="img/icons8-meta-144.png" width="100px" height="100px" alt="Facebook Ads Manager">
-            </section>
+
             <section id="formacion">
-                <h3>Formación</h3>
-                <div>
-                    <div class="education">
-                        <h5>Universidad Nacional de Lanús | 2018 - Actualidad</h5>
-                        <h4>Licenciatura en Diseño y Comunicación Visual</h4>
+                <h3>formación</h3>
+                <div id="formacion-row-layout">
+                    <div class="formacion-col-layout">
+                        <article>
+                            <h4>Idiomas</h4>
+                            <ul class="body-large">
+                                <li>Español</li>
+                                <li>Inglés</li>
+                                <li>Portugués</li>
+                            </ul>
+                        </article>
+                        <article>
+                            <h4>Hard Skills</h4>
+                            <ul class="body-large">
+                                <li>Adobe Illustrator</li>
+                                <li>Adobe Indesign</li>
+                                <li>Adobe Photoshop</li>
+                                <li>Figma</li>
+                                <li>Google Ads</li>
+                                <li>Facebook Ads</li>
+                            </ul>
+                        </article>
                     </div>
-                    <div class="education">
-                        <h5>Coderhouse | 2021</h5>
-                        <h4>Diseño UX/UI</h4>
-                    </div>
-                    <div class="education">
-                        <h5>Coderhouse | 2021</h5>
-                        <h4>Marketing Digital: Community Management & Publlicidad</h4>
+                    <div class="formacion-col-layout">
+                        <article>
+                            <p class="body-large">Universidad Nacional de Lanús | 2018 - Actualidad</p>
+                            <h4>Licenciatura en Diseño y Comunicación Visual</h4>
+                        </article>
+                        <article>
+                            <p class="body-large">Coderhouse | 2021</p>
+                            <h4>Diseño UX/UI/h4>
+                        </article>
+                        <article>
+                            <p class="body-large">Coderhouse | 2021</p>
+                            <h4>Marketing Digital: Community Management & Publicidad</h4>
+                        </article>
                     </div>
                 </div>
             </section>
         </main>
-        <footer id="contacto">
-            <div> <!--en lugar de un div podrías utilizar address ya que es un sector de contacto-->
-                <img src="img/monograma.svg" width="56px" height="56px" alt="">
-                <h6>Giuliana Belardo</h6>
-            </div>
-            <div class="contact-info">
-                <a href="https://api.whatsapp.com/send/?phone=%2B5491156972132&text&type=phone_number&app_absent=0" target="_blank"><img src="img/call_FILL1_wght400_GRAD0_opsz24.svg" width="56px" height="56px" alt="Teléfono">
-                <p>+54 9 11 5697-2132</p></a>
-            </div>
-            <div class="contact-info">
-                <a href="mailto:giulianabelardo@gmail.com" target="_blank"><img src="img/mail_FILL1_wght400_GRAD0_opsz24.svg" width="56px" height="56px" alt="E-mail">
-                <p>giulianabelardo@gmail.com</p></a>
+
+        <footer>
+            <h2>Trabajemos juntos</h2>
+            <div id="buttons">
+                <button class="button-fill-white">Agendá una reunión</button>
+                <button class="button-outline-white">Enviame un mensaje</button>
             </div>
             <div class="social-media">
+                <a href="mailto:giulianabelardo@gmail.com" target="_blank"><img src="img/icons8-gmail-nuevo.svg" width="56px" height="56px" alt="Gmail"></a>
+
+                <a href="https://api.whatsapp.com/send/?phone=%2B5491156972132&text&type=phone_number&app_absent=0" target="_blank"><img src="img/icons8-whatsapp.svg" width="56px" height="56px" alt="Whatsapp"></a>
+
                 <a href="https://ar.linkedin.com/" target="_blank"><img src="img/icons8-linkedin.svg" width="56px" height="56px" alt="Linkedin"></a>
+
                 <a href="https://www.behance.net" target="_blank"><img src="img/icons8-behance.svg" width="56px" height="56px" alt="Behance"></a>
+
                 <a href="https://www.instagram.com/" target="_blank"><img src="img/icons8-instagram.svg" width="56px" height="56px" alt="Instagram"></a>
+            </div>
+            <div id="legals">
+                <p class="body-small"> ©2024 Giuliana Belardo, All Rights Reserved</p>
+                <a href="https://iconos8.es/" target="_blank"><p class="body-small">Icons by icons8.com</p></a>
             </div>
         </footer>
     </body>

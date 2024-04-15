@@ -7,336 +7,382 @@
     box-sizing: border-box;
 }
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-// <width>: Use a value from 62 to 125
-
-.archivo-<uniquifier> {
-    font-family: "Archivo", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" <width>;
-  }
-
-  html {
-    background-color:; 
+html {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    scrollbar-width: none;
+}
+
+:root {
+    --blue-50: #eceefb;
+    --blue-100: #c4cbf3;
+    --blue-400: #6779e1;
+    --blue-500: #4158d9;
+    --pink-50: #fbecee;
+    --pink-500: #d94158;
+    --turquoise-50: #e7fdf6;
+    --turquoise-500: #11eea8;
+    --grey-600: #57565b;
+}
+
+//TEXT STYLES--------------------------------------------
+h1 {
+    font-family: "Climate Crisis"; //¿Porqué no se aplica la tipografía?
+    font-size: 10em;
+}
+
+h2 {
+    font-family: "Archivo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-family: "Climate Crisis"; //¿Porqué no se aplica la tipografía?
+    font-size: 5em;
+}
+
+h4 {
     font-family: "Archivo", sans-serif;
     font-style: normal;
-    scrollbar-width: none; //2) Al final en lugar de webkit scrollbar, use esto. No se si hay otra manera. Igualmente voy a buscar la manera de personalizar una scrollbar
-} 
+    font-weight: 500;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
 
-// ::-webkit-scrollbar {display: none;} 
-//1) quiero ocultar la barra de scroll vertical o excluirla del ancho total de la página porque me pisa el contenido, pero si uso esta propiedad me desactiva la funcionalidad de scroll horizontal que tengo en la section portfolio
+h5 {
+    font-family: "Archivo", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
 
+h6 {
+    font-family: "Archivo", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+
+p {
+    font-family: "Archivo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1em;
+}
+
+.body-small {
+    font-family: "Archivo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+.body-large {
+    font-family: "Archivo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+li {
+    font-family: "Archivo", sans-serif;
+    font-style: normal;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+//BODY--------------------------------------------
 body {
     min-height: 100vh;
     width: 100%;
-    background-color: #A7C6D9; 
     margin: 0 auto;
-    overflow-x: hidden;
+    //overflow-x: hidden;
 }
-
+//HEADER--------------------------------------------
 header {
     width: 100vw;
     height: 10vh;
-    //background-color: ;
-    padding: 0px 20px;
+}
+
+header nav {
+    height: 10vh;
+    width: 100%;
+    background-color: var(--blue-500);
+    padding: 2.5vh 104px;
+}
+
+header ul {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; //¿Porqué no se centra?
 }
 
-#navigation {
-    width: 50%;
+header ul li a {
+    color: var(--blue-50);
 }
 
-#navigation ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-// #navigation li {}
-
+//MAIN--------------------------------------------
 main {
     width: 100vw;
     display: flex;
     flex-direction: column;
 }
 
-main section {
-    display: flex;
-    flex-direction: column;
-}
-
-#sobre-mi {
+#cover {
+    width: 100%;
     height: 90vh;
-    //background-color: ;
-    padding: 24px 50px;
+    padding: 24px 104px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    gap: 1vh;
+    gap: 2vh;
+    background-color: var(--blue-500);
+    color: var(--blue-50);
 }
 
-//#language { width: ;height: ;background-color: ;padding: ; }
+#cover nav {
+    padding: 20px 0px;
+}
 
-#language ul {
-    width: 100vw;
-    padding: 10px 10px 10px 0px;
+#cover ul {
+    width: 100%;
     display: flex;
     justify-content: flex-start;
-    gap: 2vw;
+    align-items: center;
+    gap: 1vw;
+
 }
 
-//#language li { width: ; height: ; background-color: ; padding: ;}
+#cover ul li {
+    font-family: "Archivo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9em;
+    text-transform: capitalize;
+}
+
+#cover div {
+    margin: 15vh 0 0 0;
+}
+
+
+#sobre-mi {
+    width: 100%;
+    height: 700px;
+    padding: 24px 104px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    background-color: var(--blue-50);
+    color: var(--grey-600);
+}
+
+#sobre-mi div {
+    width: 600px;
+    heigh: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
 
 #sobre-mi article {
     display: flex;
     flex-direction: column;
-    align-items: strech;
-    gap: 5vh;
-}
-
-#sobre-mi article div {
-    display: flex;
-    flex-direction: column;
     justify-content: flex-start;
-    align-items: strech;
-    gap: 0vh;
+    align-items: flex-start;
+    gap: 16px;
 }
 
-#sobre-mi p {
-    width: 40%;
-    //height: ;
-    background-color: ;
+#sobre-mi h2 {
+    color: var(--blue-500);
 }
 
-#sobre-mi div {
-    //height: ;
+.button-fill-blue {
+    width: 300px;
+    height: 56px;
+    font-size: 1.1em;
+    letter-spacing: 0.05em;
+    border: none;
+    border-radius: 30px;
+    color: var(--blue-50);
+    background-color: var(--blue-500);
+}
+
+.button-fill-blue:hover {
+    color: var(--blue-50);
+    background-color: var(--blue-400);
+}
+
+.button-fill-blue:active {
+    color: var(--blue-500);
+    background-color: var(--blue-50);
+}
+
+#proyectos {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    //background-color: ;
-    //padding: ;
-}
-
-#experiencia {
-    width: 100%;
-    height: 75vh;
-    background-color: #184059;
-    //padding: ;
-    padding: 24px 50px;
+    height: 1000px;
+    padding: 24px 104px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 5vh;
+    align-items: flex-end;
+    gap: 56px;
+    background-color: var(--blue-50);
+    color: var(--grey-600);
 }
 
-#experiencia div {
+#proyectos div {
     width: 100%;
-    //height: ;
-    //padding: ;
     display: flex;
-    
 }
 
-#experiencia h3 {
-    color: white
-}
 
-#experiencia h4 {
-    color: white
-}
-
-#experiencia h5 {
-    color: white
-}
-
-#experiencia li {
-    color: white
-}
-
-.previous-exp {
-    //width: ;
-    //height: ;
-    //background-color: ;
-    //padding: ;
-    flex: 1;
-}
-
-//.previous-exp ul {
-    padding-left: ;}
-
-#portfolio {
-    width: 100%;
-    height: 100vh;
-    background-color: #3A6784;
-    padding: 2vh 3vw ;
+#project-list {
+    width: 30px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    overflow-x: scroll;
-    gap: 3vw;
-}
-
-#portfolio h4 {
-    color: white;
-}
-
-#portfolio h5 {
-    color: white;
-}
-
-.work-thumbnail {
-    width: 385px;
-    height: 500px;
-    background-color: ;
-    //padding: ;
-}
-
-#herramientas {
-    width: 100%;
-    height: 60vh;
-    //background-color: ;
-    //padding: ;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+    gap: 16px;
 }
 
 #formacion {
     width: 100%;
-    height: 75vh;
-    //background-color: ;
-    //padding: ;
-    padding: 24px 50px;
+    height: 1000px;
+    padding: 24px 104px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 5vh;
+    align-items: flex-start;
+    gap: 56px;
+    background-color: var(--blue-50);
+    color: var(--grey-600);
 }
 
-#formacion div {
+#formacion-row-layout {
     width: 100%;
-    //height:;
-    //background-color: ;
-    //padding: ;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.education {
-    //width: ;
-    //height: ;
-    //background-color: ;
-    //padding: ;
+.formacion-col-layout {
+    display: flex;
     flex-direction: column;
+    gap: 48px;
+}
+
+#formacion h4 {
+    color: var(--pink-500);
+}
+
+#formacion li {
+    text-transform: capitalize;
+    font-weight: 400;
 }
 
 footer {
     width: 100vw;
-    height: 600px;
-    //background-color: ;
-    padding: 20px 50px;
+    height: 100vh;
+    background-color: var(--blue-500);
+    padding: 16px 104px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 footer div {
     width: 100%;
-    height: 56px;
-    margin: 20px 0px;
-    //background-color: ;
-    //padding: ;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
-footer div h6 {
-    margin: 15px;
+footer h2 {
+    color: var(--blue-50);
 }
 
-//.contact-info {
-    width: ;
-    height: ;
-    background-color: ;
-    padding: ;}
-
-.contact-info a {
+#buttons {
+    height: 30%;
     display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 56px;
 }
 
-.contact-info p {
-    margin: 15px;
+.button-fill-white {
+    width: 300px;
+    height: 56px;
+    font-size: 1.1em;
+    letter-spacing: 0.05em;
+    border: none;
+    border-radius: 30px;
+    color: var(--blue-500);
+    background-color: var(--blue-50);
+}
+
+.button-fill-white:hover {
+    color: var(--blue-50);
+    background-color: var(--blue-400);
+}
+
+.button-fill-white:active {
+    color: var(--blue-500);
+    background-color: var(--blue-50);
+}
+
+.button-outline-white {
+    width: 300px;
+    height: 56px;
+    font-size: 1.1em;
+    letter-spacing: 0.05em;
+    border-radius: 30px;
+    color: var(--blue-50);
+    border: 2px solid var(--blue-50);
+    background-color: var(--blue-500);
+}
+
+.button-outline-white:hover {
+    color: var(--blue-50);
+    background-color: var(--blue-400);
+}
+
+.button-outline-white:active {
+    color: var(--blue-500);
+    background-color: var(--blue-50);
 }
 
 .social-media {
     width: 100%;
     height: 200px;
-    //background-color: ;
-    //padding: ;
     justify-content: center;
+    gap: 56px;
 }
 
-.social-media a {
-    margin: 10px;
+#legals {
+    color: var(--blue-50);
+    display: flex;
+    justify-content: space-between;
 }
 
-h1 {
-    font-weight: 100;
-    font-size: 5em;
-}
-
-h2 {
-    font-weight: 100;
-    font-size: 2.5em;
-}
-
-h3 {
-    font-weight: 400;
-    font-size: 2em;
-}
-
-h4 {
-    font-weight: 400;
-    font-size: 1.5em;
-}
-
-h5 {
-    font-weight: 300;
-    font-size: 1.3em;
-}
-
-h6 {
-    font-weight: 450;
-    font-size: 1.1em;
-}
-
-
-p {
-    font-weight: 400;
-    font-size: 1.1em;
-}
-
-//a p {
-    font-weight: ;
-    font-size: ;
-    color: ;}
-
-li {
-    list-style-type: none;
-    font-size: 1em;
-}
-
-a {
-    text-decoration: none;
-    color: black;
+#legals a {
+    color: var(--blue-50);
 }
