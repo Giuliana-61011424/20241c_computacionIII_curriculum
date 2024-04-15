@@ -1,4 +1,8 @@
 # 20241c_computacionIII_curriculum
+Resolución de pantalla: 1366x768
+Programa: Visual Studio Code
+
+
 15/04
 
 Por suerte no se me murió del todo la compu ;v;
