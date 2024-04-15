@@ -1,6 +1,8 @@
 # 20241c_computacionIII_curriculum
 15/04
 
+Por suerte no se me murió del todo la compu ;v;
+
 Mejore el prototipo de Figma:
 https://www.figma.com/proto/7c9yF5wxX4zyCB0jlv8lmT/CV-ver2?page-id=0%3A1&type=design&node-id=8-2&viewport=293%2C-157%2C0.36&t=eyayTqidvkThq6Wl-1&scaling=scale-down&mode=design 
 
