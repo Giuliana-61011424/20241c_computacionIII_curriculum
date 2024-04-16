@@ -109,15 +109,14 @@ a {
 }
 
 /*BODY--------------------------------------------*/
-/*body {
-    overflow-x: hidden;
-}*/
+body {
+    background-color: var(--blue-500);
+}
 
 /*HEADER--------------------------------------------*/
 header {
     width: 100%;
     height: 10vh;
-    background-color: var(--blue-500);
 }
 
 header nav {
@@ -131,6 +130,15 @@ header ul {
 }
 
 header ul li a {
+    color: var(--blue-50);
+}
+
+.nav-button {
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    text-decoration: underline;
     color: var(--blue-50);
 }
 
@@ -148,7 +156,6 @@ main {
     flex-direction: column;
     justify-content: flex-end;
     gap: 24px;
-    background-color: var(--blue-500);
     color: var(--blue-50);
 }
 
@@ -208,6 +215,7 @@ main {
 }
 
 .button-fill-blue {
+    cursor: pointer;
     width: 300px;
     height: 56px;
     font-size: 1.1em;
@@ -251,8 +259,22 @@ main {
     width: 20%;
     display: flex;
     flex-direction: column;
-    padding: 24px;
-    gap: 24px;
+    margin: 0px 0px 0px 24px;
+}
+
+.project-button {
+    cursor: pointer;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.project-button:hover {
+    color: var(--pink-500);
+    text-decoration: underline;
+}
+
+.project-button:active {
+    background-color: var(--blue-100);
 }
 
 /*FORMACION--------------------------------------------*/
@@ -325,6 +347,7 @@ footer h2 {
 }
 
 .button-fill-white {
+    cursor: pointer;
     width: 300px;
     height: 56px;
     font-size: 1.1em;
@@ -346,6 +369,7 @@ footer h2 {
 }
 
 .button-outline-white {
+    cursor: pointer;
     width: 300px;
     height: 56px;
     font-size: 1.1em;
