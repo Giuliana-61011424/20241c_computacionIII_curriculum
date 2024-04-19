@@ -1,33 +1,23 @@
 # 20241c_computacionIII_curriculum
 Resolución de pantalla: 1366x768
+
 Programa: Visual Studio Code
 
+Prototipo: https://www.figma.com/proto/7c9yF5wxX4zyCB0jlv8lmT/CV-ver2?page-id=0%3A1&type=design&node-id=8-2&viewport=293%2C-157%2C0.36&t=eyayTqidvkThq6Wl-1&scaling=scale-down&mode=design  
 
-15/04
+Repositorio: https://github.com/Giuliana-61011424/20241c_computacionIII_curriculum
 
-Por suerte no se me murió del todo la compu ;v;
+Este trabajo se trata de un curriculum web orientado a exponer los proyectos y experiencias profesionales como diseñadora. El público objetivo son dueños de pequeñas y medianas empresas en busca de diseñadores freelance para trabajos de diseño. Hice foco en la implementación de Calls To Action y en mostrar mis trabajos profesionales más que mi experiencia. 
 
-Mejore el prototipo de Figma:
-https://www.figma.com/proto/7c9yF5wxX4zyCB0jlv8lmT/CV-ver2?page-id=0%3A1&type=design&node-id=8-2&viewport=293%2C-157%2C0.36&t=eyayTqidvkThq6Wl-1&scaling=scale-down&mode=design 
+Debido a la cantidad de tiempo disponible y mi limitado conocimiento de código, el sitio no es 100% funcional y no pude implementar algunas funciones que me imaginaba para la página. Por ejemplo, el selector de idioma debería conducir a otros html con el texto en sus respectivos idiomas. Lo mismo con la lista de proyectos, la imagen debería cambiar al hacer hover en el nombre, y al cliquearlo conduciria a una pantalla con información detallada de cada trabajo. Los enlaces a redes y a agendar reuniones llevan solo al inicio de sus páginas (lo queme pareció suficiente para ilustrar sus funciones), con la excepción del mail (que tiene un asunto y texto introductorio incluido además de la dirección de mail) y el whatsapp.
 
-Y en base a este nuevo prototipo avance en la implementación de estilos en la página. Sin embargo con la nueva estructura me surgieron algunos problemas:
+Como fue un proyecto corto y de una sola persona, no me preocupe en detallar las interacciones y estados de los componentes en el prototipo, sino que quería volcar la mayor atención posible en el código, la parte más difícil para mí. Sin embargo, me encontre con dificultades a la hora de traducir las medidas de Figma a código, y de lograr que el código me funcione exactamente como estaba maquetado el prototipo. 
 
-El h1 no refleja la familia tipográfica ni el tamaño. Y el h3 no refleja el tamaño. No consigo darme cuenta cual es el problema por mucho que revise.
-
-Por otro lado, no consigo alinear los elementos del nav del header sobre el eje vertical. Quería que quedaran centrados y como no me funcionaba el comando align-items termine aplicando un padding. No es lo ideal pero no me quedó otra opción. Si se dan cuenta cual es el problema sería genial.
-
-Me gustaría saber si las medidas relativas están bien aplicadas, ya que se me dificulta lograr que todos los elementos sean 100% responsive.
-
-Todavía me faltan algunos detalles, como terminar los estados de los botones del nav o editar algunas imágenes para que sean del tamaño correcto, pero lo haré durante la semana.
+En un futuro pienso retomar este proyecto e implementarlo como página web personal, y de paso hacer las modificaciones que no supe como hacer en esta instancia de la cursada.
 
 
-------------------------------------------------------------------------------
-Boceto en figma (desactualizado)
-https://www.figma.com/file/XOvpj8v7o8vmVcLiW8cQPm/prototype-cv?type=design&node-id=0%3A1&mode=design&t=pCdzOjHJ3sQNi9AV-1
 
-Estoy armando la estructura con este boceto low fidelity como base.
 
-12/04
-Estuve con problemas en la compu y no pude avanzar mucho, pero la estructura base y el flexbox están completamente aplicados. El prototipo en figma es de baja fidelidad, lo use en un principio para guiarme en la estructura html y si llego a trabajarlo más lo usaré de guia para los cambios estilisticos del sitio. 
 
-La estética del sitio la dejé un poco de lado para concentrarme en el layout general, pero planeo trabajarla más.
+
+
