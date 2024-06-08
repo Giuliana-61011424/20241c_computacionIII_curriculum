@@ -19,8 +19,12 @@ html {
     --blue-400: #6779e1;
     --blue-500: #4158d9;
     --pink-50: #fbecee;
+    --pink-100: #f3c4cb;
+    --pink-400: #e16779;
     --pink-500: #d94158;
     --turquoise-50: #e7fdf6;
+    --turquoise-100: #b5fae4;
+    --turquoise-400: #41f1b9;
     --turquoise-500: #11eea8;
     --grey-600: #57565b;
 }
@@ -91,7 +95,14 @@ p {
     font-family: "Archivo", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5em;
+    font-size: 1.4em;
+}
+
+.project-button p {
+    font-family: "Archivo", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2em;
 }
 
 li {
@@ -108,9 +119,139 @@ a {
     color: black;
 }
 
+/*BUTTONS--------------------------------------------*/
+
+.nav-button {
+    cursor: pointer;
+    color: var(--blue-50);
+    font-family: "Archivo", sans-serif;
+    font-style: normal;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.nav-button:hover {
+    color: var(--turquoise-500);
+}
+
+.icon-button {
+
+}
+
+.primary-positive {
+    cursor: pointer;
+    width: 300px;
+    height: 56px;
+    font-size: 1.1em;
+    letter-spacing: 0.05em;
+    border: none;
+    border-radius: 30px;
+    color: var(--pink-50);
+    background-color: var(--pink-500);
+}
+
+.primary-positive:hover {
+    color: var(--pink-500);
+    background-color: var(--pink-100);
+}
+
+.primary-positive:active {
+    color: var(--pink-500);
+    background-color: var(--pink-50);
+}
+
+.primary-negative {
+    cursor: pointer;
+    width: 300px;
+    height: 56px;
+    font-size: 1.1em;
+    letter-spacing: 0.05em;
+    border: none;
+    border-radius: 30px;
+    color: var(--blue-500);
+    background-color: var(--turquoise-500);
+}
+
+.primary-negative:hover {
+    color: var(--turquoise-500);
+    background-color: var(--turquoise-100);
+}
+
+.primary-negative:active {
+    color: var(--turquoise-500);
+    background-color: var(--turquoise-50);
+}
+
+.secondary-positive {
+    cursor: pointer;
+    width: 300px;
+    height: 56px;
+    font-size: 1.1em;
+    letter-spacing: 0.05em;
+    border-radius: 30px;
+    color: var(--blue-50);
+    border: 2px solid var(--blue-50);
+    background-color: var(--blue-500);
+}
+
+.secondary-positive:hover {
+    
+}
+
+.secondary-positive:active {
+    
+}
+
+.secondary-negative {
+    cursor: pointer;
+    width: 300px;
+    height: 56px;
+    font-size: 1.1em;
+    letter-spacing: 0.05em;
+    border-radius: 30px;
+    color: var(--blue-50);
+    border: 2px solid var(--blue-50);
+    background-color: var(--blue-500);
+}
+
+.secondary-negative:hover {
+    color: var(--blue-50);
+    background-color: var(--blue-400);
+}
+
+.secondary-negative:active {
+    color: var(--blue-500);
+    background-color: var(--blue-50);
+}
+
+.project-button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 18px;
+    box-sizing: border-box;
+    color: var(--blue-50);
+}
+
+.project-button:hover {
+    color: var(--turquoise-500);
+    text-decoration: underline;
+}
+
+.project-button:active {
+}
+
 /*BODY--------------------------------------------*/
 body {
     background-color: var(--blue-500);
+    background-image: url("img/video-cover.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
 }
 
 /*HEADER--------------------------------------------*/
@@ -121,25 +262,16 @@ header {
 
 header nav {
     padding: 2% 7%;
-}
-
-header ul {
-    width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-header ul li a {
-    color: var(--blue-50);
-}
-
-.nav-button {
-    cursor: pointer;
-}
-
-.nav-button:hover {
-    text-decoration: underline;
-    color: var(--blue-50);
+header div {
+    width: 40vw;
+    min-width: 450px;
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /*MAIN--------------------------------------------*/
@@ -159,23 +291,6 @@ main {
     color: var(--blue-50);
 }
 
-#cover ul {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
-
-}
-
-#cover ul li {
-    font-family: "Archivo", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1em;
-    text-transform: capitalize;
-    color: var(--blue-50);
-}
-
 #cover article {
     padding: 8px 0px;
 }
@@ -189,8 +304,8 @@ main {
     justify-content: flex-start;
     align-items: center;
     gap: 24px;
-    background-color: var(--blue-50);
-    color: var(--grey-600);
+    background-color: var(--blue-500);
+    color: var(--blue-50);
 }
 
 #sobre-mi div {
@@ -211,30 +326,9 @@ main {
 }
 
 #sobre-mi h2 {
-    color: var(--blue-500);
-}
-
-.button-fill-blue {
-    cursor: pointer;
-    width: 300px;
-    height: 56px;
-    font-size: 1.1em;
-    letter-spacing: 0.05em;
-    border: none;
-    border-radius: 30px;
     color: var(--blue-50);
-    background-color: var(--blue-500);
 }
 
-.button-fill-blue:hover {
-    color: var(--blue-50);
-    background-color: var(--blue-400);
-}
-
-.button-fill-blue:active {
-    color: var(--blue-500);
-    background-color: var(--blue-50);
-}
 
 /*PROYECTOS--------------------------------------------*/
 #proyectos {
@@ -245,8 +339,8 @@ main {
     justify-content: center;
     align-items: flex-end;
     gap: 56px;
-    background-color: var(--blue-50);
-    color: var(--grey-600);
+    background-color: var(--blue-500);
+    color: var(--blue-50);
 }
 
 #proyectos div {
@@ -262,21 +356,6 @@ main {
     margin: 0px 0px 0px 24px;
 }
 
-.project-button {
-    cursor: pointer;
-    padding: 18px;
-    box-sizing: border-box;
-}
-
-.project-button:hover {
-    color: var(--pink-500);
-    text-decoration: underline;
-}
-
-.project-button:active {
-    background-color: var(--blue-100);
-}
-
 /*FORMACION--------------------------------------------*/
 #formacion {
     width: 100%;
@@ -286,8 +365,8 @@ main {
     justify-content: center;
     align-items: flex-start;
     gap: 56px;
-    background-color: var(--blue-50);
-    color: var(--grey-600);
+    background-color: var(--blue-500);
+    color: var(--blue-50);
 }
 
 #formacion-row-layout {
@@ -305,7 +384,7 @@ main {
 }
 
 #formacion h4 {
-    color: var(--pink-500);
+    color: var(--turquoise-500);
 }
 
 #formacion li {
@@ -318,7 +397,6 @@ main {
 footer {
     width: 100%;
     height: 100vh;
-    background-color: var(--blue-500);
     padding: 16px 7%;
     display: flex;
     flex-direction: column;
@@ -346,50 +424,6 @@ footer h2 {
     gap: 56px;
 }
 
-.button-fill-white {
-    cursor: pointer;
-    width: 300px;
-    height: 56px;
-    font-size: 1.1em;
-    letter-spacing: 0.05em;
-    border: none;
-    border-radius: 30px;
-    color: var(--blue-500);
-    background-color: var(--blue-50);
-}
-
-.button-fill-white:hover {
-    color: var(--blue-50);
-    background-color: var(--blue-400);
-}
-
-.button-fill-white:active {
-    color: var(--blue-500);
-    background-color: var(--blue-50);
-}
-
-.button-outline-white {
-    cursor: pointer;
-    width: 300px;
-    height: 56px;
-    font-size: 1.1em;
-    letter-spacing: 0.05em;
-    border-radius: 30px;
-    color: var(--blue-50);
-    border: 2px solid var(--blue-50);
-    background-color: var(--blue-500);
-}
-
-.button-outline-white:hover {
-    color: var(--blue-50);
-    background-color: var(--blue-400);
-}
-
-.button-outline-white:active {
-    color: var(--blue-500);
-    background-color: var(--blue-50);
-}
-
 .social-media {
     width: 100%;
     height: 200px;
@@ -401,6 +435,15 @@ footer h2 {
     color: var(--blue-50);
     display: flex;
     justify-content: space-between;
+}
+
+#legals div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20vw;
+    min-width: 250px;
+    max-width: 300px;
 }
 
 #legals a {
