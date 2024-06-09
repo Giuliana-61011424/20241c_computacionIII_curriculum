@@ -270,7 +270,18 @@ a {
 /*BODY--------------------------------------------*/
 body {
     background-color: var(--blue-500);
+}
+
+#index-background {
     background-image: url("img/video-cover.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+#omnibus-background {
+    background-image: url("img/omnibus-background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
