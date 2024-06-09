@@ -19,13 +19,12 @@ Además, al ir escribiendo el código me van surgiendo nuevas ideas que van a te
 De la lista de proyectos, el unico que tiene una pantalla armada es el de Omnibus Type Expo, la cual quiero perfeccionar bien el layout antes de ponerme a hacer los demás. Como no tenía un video mio puse uno cualquiera de un banco de recursos. 
 No me estoy dando cuenta como hacer la animación hover en la que aparecen las previsualizaciones de los trabajos al pasar por el nombre (vean el prototipo de Figma para saber a lo que me refiero). Si no consigo hacerlo funcionar voy a probar otra manera de previsualizar los proyectos. Además tengo que plantear otra forma de exponer los trabajos en el mobile ya que ahí no tiene sentido la pseudo clase hover.
 
-
 Buscando ahorrar tiempo quise aprender como hacer componentes en Javascript pero me parecio re confuso y no logré hacerlo, además que no tuve mucho tiempo para aprender tampoco.
 
 De la galería me falta hacer el visor de imágenes.
 
 Todavía no armé la versión celular porque quiero tener bien definido la vista de escritorio primero. 
 
-
+Para organizarme también empecé a usar la pestaña de "Issues" de Github, por lo que ahí pueden ir viendo que es lo que quiero hacer y las cosas que voy probando.
 
 
