@@ -82,6 +82,7 @@ p {
     font-weight: 400;
     font-style: normal;
     font-size: 1.1em;
+    line-height: 1.5em;
 }
 
 .body-small {
@@ -105,13 +106,22 @@ p {
     font-size: 1.2em;
 }
 
-li {
+#formacion li {
     font-family: "Archivo", sans-serif;
     font-style: normal;
     list-style-type: none;
     font-weight: 500;
     font-size: 1em;
     text-transform: uppercase;
+}
+
+.project-intro li {
+    font-family: "Archivo", sans-serif;
+    font-style: normal;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: var(--grey-600);
 }
 
 a {
@@ -314,7 +324,7 @@ main {
 }
 
 /*COVER--------------------------------------------*/
-#cover {
+.cover {
     width: 100%;
     height: 90vh;
     padding: 2% 7%;
@@ -325,7 +335,7 @@ main {
     color: var(--blue-50);
 }
 
-#cover article {
+.cover article {
     padding: 8px 0px;
     position: relative;
     bottom: 10vh;
@@ -433,6 +443,69 @@ main {
     font-weight: 400;
 }
 
+/* Omnibus HTML */
+
+.project-intro {
+    background-color: var(--blue-50);
+    color: var(--blue-500);
+    padding: 7% 7%;
+}
+
+.project-categories {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    margin-bottom: 48px
+}
+
+.project-intro article {
+    width: 50%;
+    max-width: 700px;
+    min-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    padding: 0% 7% 7% 7%;
+    background-color: var(--blue-50);
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(8,300px);
+    grid-gap: 16px 16px;
+}
+
+.grid-item-a {
+    background-color: var(--blue-500);
+    grid-row: 1/3;
+    grid-column: 1/3;
+    background-image: url("img/");
+}
+
+.grid-item-b {
+    background-color: var(--pink-500);
+}
+
+.grid-item-c {
+    background-color: var(--pink-400);
+}
+
+.grid-item-d {
+    background-color: var(--pink-100);
+}
+
+.grid-item-e {
+    background-color: var(--pink-50);
+}
+
+.grid-item-f {
+    background-color: var(--turquoise-500);
+    grid-row: 5/7;
+    grid-column: 1/3;
+}
 
 /*FOOTER--------------------------------------------*/
 footer {
