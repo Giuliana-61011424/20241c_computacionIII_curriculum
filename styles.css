@@ -291,7 +291,7 @@ body {
 }
 
 #omnibus-background {
-    background-image: url("img/omnibus-background.png");
+    background-image: url("img/omnibus/omnibus-cover.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -482,28 +482,56 @@ main {
     background-color: var(--blue-500);
     grid-row: 1/3;
     grid-column: 1/3;
-    background-image: url("img/");
+    background-image: url("img/omnibus/project-omnibus-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .grid-item-b {
     background-color: var(--pink-500);
+    background-image: url("img/omnibus/project-omnibus-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .grid-item-c {
     background-color: var(--pink-400);
+    background-image: url("img/omnibus/project-omnibus-3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .grid-item-d {
     background-color: var(--pink-100);
+    background-image: url("img/omnibus/project-omnibus-4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .grid-item-e {
     background-color: var(--pink-50);
+    background-image: url("img/omnibus/project-omnibus-5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .grid-item-f {
     background-color: var(--turquoise-500);
     grid-row: 5/7;
+    grid-column: 1/3;
+    background-image: url("img/omnibus/project-omnibus-6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid-item-g {
+    grid-row: 7/9;
     grid-column: 1/3;
 }
 
