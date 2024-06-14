@@ -318,9 +318,7 @@ header nav {
     max-width: 700px;
 }
 
-.header-scrolled {
-    background-color: var(--blue-500);
-}
+
 /*MAIN--------------------------------------------*/
 main {
     width: 100%;
@@ -672,4 +670,114 @@ textarea {
 
 #legals a {
     color: var(--blue-50);
+}
+
+
+@media screen and (max-width: 600px) {
+
+    header {
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px 2%;
+        gap: 16px;
+    }
+    
+    header nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 16px;
+    }
+
+    .cover {
+        width: 100%;
+        height: 110vh;
+        padding: 3%;
+    }
+    
+    .cover article {
+        position: static;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 4em;
+    }
+
+    #sobre-mi {
+        flex-direction: column;
+        padding: 3%;
+    }
+    
+    #sobre-mi div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 32px;
+    }
+
+    #proyectos {
+        padding: 3%;
+    }
+
+    .body-large {
+        font-size: 1.2em;
+    }
+
+    .primary-negative {
+        font-size: 1.2em;
+    }
+
+    footer {
+        width: 100%;
+        height: 100%;
+        padding: 7% 3%;
+    }
+    input[type=text] {
+        width: 100%;
+    }
+    
+    input[type=email] {
+        width: 100%;
+    }
+    
+    textarea {
+        width: 100%;
+    }
+    
+    
+    #legals {
+        width: 100%;
+        color: var(--blue-50);
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #legals div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 20vw;
+        min-width: 250px;
+        max-width: 300px;
+    }
+    
+    #legals a {
+        color: var(--blue-50);
+    }
+    
 }
