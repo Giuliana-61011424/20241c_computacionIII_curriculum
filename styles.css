@@ -302,20 +302,31 @@ body {
 header {
     width: 100%;
     height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 7%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 header nav {
-    padding: 2% 7%;
     display: flex;
     justify-content: space-between;
-}
-
-header div {
     width: 40vw;
     min-width: 450px;
     max-width: 700px;
-    display: flex;
-    justify-content: space-between;
+}
+
+custom-header .scrolled {
+    background-color: var(--blue-50);
+    color: var(--blue-500);
+}
+
+.bgcolor {
+    background-color: var(--blue-50);
+    color: var(--blue-500);
 }
 
 /*MAIN--------------------------------------------*/
